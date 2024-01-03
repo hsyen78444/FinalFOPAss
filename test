@@ -128,14 +128,17 @@ public class Company {
                 case "5":
                     System.out.println("=== Inputting Customer Data ===");
                     InputCustomerData.main(args);
+                    break;
 
                 case "6":
                     System.out.println("\n=== Inputting Sales Data ===");
                     InputSalesData.main(args);
+                    break;
 
                 case "7":
                     System.out.println("\n=== Inputting Vehicle Data ===");
                     InputVehicleData.main(args);
+                    break;
 
                 default:
                     System.out.println("Invalid choice. Please try again.");
@@ -206,14 +209,17 @@ public class Company {
                 case "9":
                     System.out.println("=== Inputting Customer Data ===");
                     InputCustomerData.main(args);
+                    break;
 
                 case "10":
                     System.out.println("\n=== Inputting Sales Data ===");
                     InputSalesData.main(args);
+                    break;
 
                 case "11":
                     System.out.println("\n=== Inputting Vehicle Data ===");
                     InputVehicleData.main(args);
+                    break;
                 
 
 
