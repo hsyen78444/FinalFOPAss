@@ -1,5 +1,5 @@
 public class ManagementEmployee extends Employee {
-    public ManagementEmployee(String employeeId, String employeeName, int employeeStatus, String password) {
+    public ManagementEmployee(String employeeId, String employeeName, String employeeStatus, String password) {
         // Initialize attributes using the constructor of the parent class
         super(employeeId, employeeName, employeeStatus, password);
     }
