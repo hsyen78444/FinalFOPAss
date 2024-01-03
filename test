@@ -129,17 +129,17 @@ public class Company {
                     break;
 
                 case "4":
-                    System.out.println("=== Inputting Customer Data ===");
+                    System.out.println("\nPerforming action...");
                     InputCustomerData.main(args);
                     break;
 
                 case "5":
-                    System.out.println("\n=== Inputting Sales Data ===");
+                    System.out.println("\nPerforming action...");
                     InputSalesData.main(args);
                     break;
 
                 case "6":
-                    System.out.println("\n=== Inputting Vehicle Data ===");
+                    System.out.println("\nPerforming action...");
                     InputVehicleData.main(args);
                     break;
 
@@ -174,11 +174,14 @@ public class Company {
 
             switch (choice) {
                 case "1":
+                    System.out.println("\nPerforming action...");
                     System.out.print("Year of profit margin: ");
                     String year = scanner.next();
                     profitMargin.calculator(year);
                     break;
+
                 case "2":
+                    System.out.println("\nPerforming action...");
                     String []selection=new String[4];
                     System.out.println("\nEnter 1 for importing data [customer/employee/sales/vehicle],four rounds required : ");
                     for(int i=0;i<4;i++)
@@ -189,38 +192,45 @@ public class Company {
                     v=importVehicle(selection[3]);
                     System.out.println("Import data done.");
                     break;
+
                 case "3":
+                    System.out.println("\nPerforming action...");
                     e=importEmployee("1");
                     addManagement();
                     break;
+
                 case "4":
+                    System.out.println("\nPerforming action...");
                     ViewInfo.displayAllCustomerData();
                     break;
 
                 case "5":
+                    System.out.println("\nPerforming action...");
                     ViewInfo.displayAllEmployeeData();
                     break;
 
                 case "6":
+                    System.out.println("\nPerforming action...");
                     ViewInfo.displayAllVehicleData();
                     break;
 
                 case "7":
+                    System.out.println("\nPerforming action...");
                     ViewInfo.displayAllSalesRecords();
                     break;
                
                 case "8":
-                    System.out.println("=== Inputting Customer Data ===");
+                    System.out.println("\nPerforming action...");
                     InputCustomerData.main(args);
                     break;
 
                 case "9":
-                    System.out.println("\n=== Inputting Sales Data ===");
+                    System.out.println("\nPerforming action...");
                     InputSalesData.main(args);
                     break;
 
                 case "10":
-                    System.out.println("\n=== Inputting Vehicle Data ===");
+                    System.out.println("\nPerforming action...");
                     InputVehicleData.main(args);
                     break;
                 
