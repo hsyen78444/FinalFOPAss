@@ -142,7 +142,8 @@ public class Company {
                                 5. View Employee Data\n
                                 6. View Vehicle Data\n
                                 7. View Sales Record\n
-                                8. Log Out\n
+                                8. View Salary\n
+                                9. Log Out\n
                                 ");
             System.out.print("Enter your choice: ");
             String choice = scanner.nextLine();
@@ -185,6 +186,11 @@ public class Company {
                     break;
 
                 case "8":
+                    salaryMainSystem sm = new salaryMainSystem();
+                    sm.runSalary();
+                    break;
+
+                case "9":
                     System.out.println("Logging Out...");
                     return;
                 
