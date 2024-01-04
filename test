@@ -165,6 +165,7 @@ public class Company {
     private void performLoggedInActions1() {
         while (true) {
             Scanner scanner = new Scanner(System.in);
+            String []selection={"0","0","0","0"};
             System.out.println("\nLogged In Actions:");
             System.out.println("1. Profit Margin\n
                                 2. Import Data\n
