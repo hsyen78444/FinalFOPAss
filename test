@@ -115,7 +115,7 @@ public class Company {
                                 8. Log Out\n
                                 ");
             System.out.print("Enter your choice: ");
-            String choice = scanner.nextLine();
+            String choice = scanner.next();
 
             switch (choice) {
                 case "1":
@@ -180,7 +180,7 @@ public class Company {
                                 12. Log Out\n
                                 ");
             System.out.print("Enter your choice: ");
-            String choice = scanner.nextLine();
+            String choice = scanner.next();
 
             switch (choice) {
                 case "1":
