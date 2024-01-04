@@ -3,9 +3,9 @@ import java.util.*;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
-import static sales.InputCustomerData.saveCustomerToCSV;
+
 public class InputSalesData {
-    public static void main(String[] args) {
+    public static void InputSalesData() {
         String file = "src\\sales.csv";
 BufferedReader reader = null;
 String line = "";
