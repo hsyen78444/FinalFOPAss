@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 public class InputCustomerData {
-    public static void main(String[] args) {
+    public static void InputCustomerData() {
         String file = "src\\cust.csv";
         BufferedReader reader = null;
         String line = "";
