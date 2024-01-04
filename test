@@ -205,9 +205,9 @@ public class Company {
                 case "3":
                     System.out.println("\nPerforming action...");
                     if(!selection[1].equals("1")){
-                    e=importData.importEmployee("1");
+                    e=ImportData.importEmployee("1");
                     }
-                    importData.addManagement();
+                    ImportData.addManagement();
                     break;
 
                 case "4":
